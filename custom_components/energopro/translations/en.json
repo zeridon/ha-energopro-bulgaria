@@ -1,0 +1,11 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "ENERGOPRO Bulgaria",
+        "description": "Add ENERGOPRO Bulgaria electricity prices."
+      }
+    }
+  }
+}
+

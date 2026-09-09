@@ -1,0 +1,15 @@
+{
+  "domain": "energopro",
+  "name": "ENERGOPRO Bulgaria (Regulated Prices)",
+  "codeowners": ["@zeridon"],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://www.energo-pro.bg/bitovi-klienti/ceni-tarifi",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/zeridon/hacs-energopro-bulgaria",
+  "requirements": [
+	  "beautifulsoup4"
+  ],
+  "version": "1.0.0"
+}
