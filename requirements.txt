@@ -1,4 +1,4 @@
-beautifulsoup4>=4.14.2
+beautifulsoup4>=4.15.0
 colorlog
 homeassistant>=2025.2.4
 pytest
