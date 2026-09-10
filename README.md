@@ -54,7 +54,7 @@ Open HACS in Home Assistant and search for:
 
 **ENERGOPRO Bulgaria**
 
-If the repository has not yet been added to the HACS default repository list, add it as a custom repository [![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=zeridon&repository=hacs-energopro-bulgaria&category=integration).
+If the repository has not yet been added to the HACS default repository list, add it as a custom repository [![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=zeridon&repository=ha-energopro-bulgaria&category=integration).
 
 Select:
 
