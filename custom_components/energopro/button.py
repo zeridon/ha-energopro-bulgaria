@@ -27,7 +27,7 @@ class ENERGOPRORefreshButton(
     """Button to manually refresh ENERGOPRO prices."""
 
     _attr_has_entity_name = True
-    _attr_name = "Refresh prices"
+    _attr_translation_key = "refresh_prices"
     _attr_icon = "mdi:web-refresh"
     _attr_entity_category = EntityCategory.CONFIG
     _attr_unique_id = "energopro_refresh_prices"
@@ -54,7 +54,7 @@ class ENERGOPRORecalculateTariffButton(
     """Button to manually recalculate the current tariff."""
 
     _attr_has_entity_name = True
-    _attr_name = "Recalculate tariff"
+    _attr_translation_key = "recalculate_tariff"
     _attr_icon = "mdi:timer-refresh-outline"
     _attr_entity_category = EntityCategory.CONFIG
     _attr_unique_id = "energopro_recalculate_tariff"
