@@ -97,7 +97,7 @@ class ENERGOPROBaseSensor(
 class ENERGOPRODayPriceSensor(ENERGOPROBaseSensor):
     """Day price excluding VAT."""
 
-    _attr_name = "Day Price"
+    _attr_translation_key = "day_price"
     _attr_unique_id = "energopro_day_price"
     _attr_icon = "mdi:weather-sunny"
 
@@ -110,7 +110,7 @@ class ENERGOPRODayPriceSensor(ENERGOPROBaseSensor):
 class ENERGOPRODayPriceVatSensor(ENERGOPROBaseSensor):
     """Day price including VAT."""
 
-    _attr_name = "Day Price incl VAT"
+    _attr_translation_key = "day_price_incl_vat"
     _attr_unique_id = "energopro_day_price_incl_vat"
     _attr_icon = "mdi:weather-sunny"
 
@@ -123,8 +123,8 @@ class ENERGOPRODayPriceVatSensor(ENERGOPROBaseSensor):
 class ENERGOPRONightPriceSensor(ENERGOPROBaseSensor):
     """Night price excluding VAT."""
 
-    _attr_name = "Night Price"
-    _attr_unique_id = "energopro_night_price"
+    _attr_translation_key = "night_price"
+    _attr_unique_id = "electrohold_night_price"
     _attr_icon = "mdi:weather-night"
 
     @property
@@ -136,8 +136,8 @@ class ENERGOPRONightPriceSensor(ENERGOPROBaseSensor):
 class ENERGOPRONightPriceVatSensor(ENERGOPROBaseSensor):
     """Night price including VAT."""
 
-    _attr_name = "Night Price incl VAT"
-    _attr_unique_id = "energopro_night_price_incl_vat"
+    _attr_translation_key = "night_price_incl_vat"
+    _attr_unique_id = "electrohold_night_price_incl_vat"
     _attr_icon = "mdi:weather-night"
 
     @property
@@ -149,8 +149,8 @@ class ENERGOPRONightPriceVatSensor(ENERGOPROBaseSensor):
 class ENERGOPROCurrentTariffSensor(ENERGOPROBaseSensor):
     """Current tariff."""
 
-    _attr_name = "Current Tariff"
-    _attr_unique_id = "energopro_current_tariff"
+    _attr_translation_key = "current_tariff"
+    _attr_unique_id = "electrohold_current_tariff"
     _attr_native_unit_of_measurement = None
     _attr_state_class = None
     _attr_icon = "mdi:clock-time-four-outline"
@@ -183,8 +183,8 @@ class ENERGOPROCurrentTariffSensor(ENERGOPROBaseSensor):
 class ENERGOPROCurrentPriceSensor(ENERGOPROBaseSensor):
     """Current price excluding VAT."""
 
-    _attr_name = "Current Price"
-    _attr_unique_id = "energopro_current_price"
+    _attr_translation_key = "current_price"
+    _attr_unique_id = "electrohold_current_price"
     _attr_icon = "mdi:flash"
 
     async def async_added_to_hass(self) -> None:
@@ -218,8 +218,8 @@ class ENERGOPROCurrentPriceSensor(ENERGOPROBaseSensor):
 class ENERGOPROCurrentPriceVatSensor(ENERGOPROBaseSensor):
     """Current price including VAT."""
 
-    _attr_name = "Current Price incl VAT"
-    _attr_unique_id = "energopro_current_price_incl_vat"
+    _attr_translation_key = "current_price_incl_vat"
+    _attr_unique_id = "electrohold_current_price_incl_vat"
     _attr_icon = "mdi:flash-outline"
 
     async def async_added_to_hass(self) -> None:
