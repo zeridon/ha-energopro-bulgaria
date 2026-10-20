@@ -74,7 +74,7 @@ Search for:
 
 Electricity prices are retrieved from the ENERGOPRO Bulgaria regulated-price page:
 
-https://energopro.bg/bg/sales/domakinstva/snabdyavane-po-regulirani-ceni/
+https://www.energo-pro.bg/bitovi-klienti/ceni-tarifi
 
 The integration uses the final regulated electricity price including network services but excluding VAT as published by ENERGOPRO.
 
