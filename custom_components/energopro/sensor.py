@@ -92,6 +92,9 @@ class ENERGOPROBaseSensor(
             ATTR_LAST_UPDATE: data.last_update.isoformat(),
             ATTR_VAT_RATE: self.coordinator.vat_rate,
         }
+    @property
+    def available(self) -> bool:
+        return self.coordinator.data is not None
 
 
 class ENERGOPRODayPriceSensor(ENERGOPROBaseSensor):
